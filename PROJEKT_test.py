@@ -38,7 +38,7 @@ while True:
 		else:
 			print("Der Satz ist inkorrekt, weil keine Kongruenz zwischen Pronomen und Verb besteht.")
 	elif "PRON" in cool_list or "PROPN" in cool_list or "DET" in cool_list or "NOUN" in cool_list:
-		if cool_list == ['PROPN', 'DET']# or cool_list == ['PRON', 'DET'] or cool_list == ['NOUN', 'PRON'] or cool_list == ['DET', 'NOUN', 'PRON'] or cool_list == ['DET, NOUN, PROPN']:
+		if cool_list == ['PROPN', 'DET']: # or cool_list == ['PRON', 'DET'] or cool_list == ['NOUN', 'PRON'] or cool_list == ['DET', 'NOUN', 'PRON'] or cool_list == ['DET, NOUN, PROPN']:
 			print("Der Satz ist nicht korrekt, da der Determinierer vor dem Substantiv stehen muss!")
 	elif "PROPN" in cool_list:
 		if verb[0]=="S3/P2":
