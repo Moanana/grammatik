@@ -1,0 +1,7 @@
+#Satzstrukur-Regel
+
+	if "PRON" in cool_list or "PROPN" in cool_list or "DET" in cool_list or "NOUN" in cool_list:
+		cool_string = " ".join(cool_list)
+#		print(cool_string)
+		if "PROPN DET" in cool_string or "PRON DET" in cool_string or "NOUN PRON" in cool_string or "DET NOUN PRON" in cool_string or "DET NOUN PROPN" in cool_string or "PRON NOUN":
+			print("Der Satz ist nicht korrekt, da die Satzstruktur von Determinierer, Nomen und Pronomen nicht korrekt ist!")
