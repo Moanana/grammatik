@@ -151,7 +151,7 @@ while True:
 #regel für indexfehler
 	except IndexError:
 		if switch==0:
-			print (Fore.YELLOW+"Oopps...Das gab es einen Fehler!")
+			print (Fore.YELLOW+"Oopps...Da gab es einen Fehler!")
 		pass
 	print ("Willst du einen weiteren Satz testen?")
 	eingabe= input(">>> ")
